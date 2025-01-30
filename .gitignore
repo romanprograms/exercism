@@ -1,3 +1,4 @@
+# JAVA
 # Gradle specific files
 .gradle/
 build/
@@ -61,3 +62,56 @@ node_modules/
 
 # Maven cache
 .mvn/
+
+# PYTHON
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+Pipfile.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs and database files
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Python testing
+.tox/
+.nox/
+coverage.*
+.cache/
+nosetests.xml
+pytest_cache/
+junit.xml
+
+# MyPy type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Environment variables and secrets
+.env
+.env.local
+.secrets
